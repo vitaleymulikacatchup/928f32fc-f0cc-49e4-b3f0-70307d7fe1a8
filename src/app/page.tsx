@@ -7,14 +7,6 @@ import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
 
-const navLinks = [
-  { name: "Hero", id: "hero" },
-  { name: "About", id: "about" },
-  { name: "How To Buy", id: "how-to-buy" },
-  { name: "Tokenomics", id: "tokenomics" },
-  { name: "Footer", id: "footer" }
-];
-
 export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: "slide" }}>
@@ -22,8 +14,6 @@ export default function Home() {
         <NavbarBase 
           logoSrc="/images/logo.svg" 
           logoAlt="NovaSaaS Logo" 
-          logoWidth={120} 
-          logoHeight={40} 
           leftButtonText="Menu" 
           rightButtonText="Contact" 
           onLeftButtonClick={() => {}} 
