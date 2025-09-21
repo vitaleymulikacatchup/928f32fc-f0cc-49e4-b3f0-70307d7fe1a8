@@ -50,8 +50,8 @@ export default function Home() {
           title="Tokenomics Overview" 
           description="Our token model is designed with clarity and efficiency in mind." 
           kpiItems={[
-            { value: "100M", description: "Total Supply", longDescription: "Total number of tokens in circulation.", icon: "Users" },
-            { value: "10M", description: "Market Cap", longDescription: "Market capitalization in USD.", icon: "Chart" }
+            { value: "100M", description: "Total Supply", longDescription: "Total number of tokens in circulation.", icon: { name: "Users" } },
+            { value: "10M", description: "Market Cap", longDescription: "Market capitalization in USD.", icon: { name: "Chart" } }
           ]}
         />
       </div>
